@@ -27,13 +27,16 @@ header li a{
     text-decoration: none;
     color: #ccc;
 }
-/*----------SECTION----------------*/
+/*----------SECTION------------------------------------*/
 section{
     background-color: #808080;
     color: #fff;
+    display: table;
+    width: 100%;
 }
 .hero{
-    width: 500px
+    width: 500px;
+    display: table-cell;
 }
 .hero h1{
    font-size: 50px;
@@ -43,3 +46,23 @@ section{
     font-size: 14px;
     text-align: left;
 }
+/*----------SECTION-SLIDE--------------------------------*/
+.slide{
+    width: 220px;
+    background: #8f8f8f;
+    border-radius: 7px;
+    padding: 20px;
+}
+.slide h3{
+    text-align: center;
+}
+.slide input, button{
+    width: 100%;
+    margin: 5px 0;
+    padding: 2px;
+}
+button{
+    background-color: #4fabe5;
+    color: #fff;
+}
+/*----------FOOTER------------------------------------*/
