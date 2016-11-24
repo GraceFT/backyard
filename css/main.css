@@ -1,12 +1,16 @@
 *{
     outline: 1px solid rgba(0,255,0,0.5);
+    margin: 0;
     padding: 0;
     font-family: "Open Sans";
 }
-header, section, footer{
-     margin:0 150px;
+header,section,footer{
+     padding:0 250px;
 }
 /*----------HEADER----------------*/
+header{
+    height: 50px;
+}
 .logo{
     width: 50%;
     margin: ;
@@ -22,4 +26,20 @@ header li{
 header li a{
     text-decoration: none;
     color: #ccc;
+}
+/*----------SECTION----------------*/
+section{
+    background-color: #808080;
+    color: #fff;
+}
+.hero{
+    width: 500px
+}
+.hero h1{
+   font-size: 50px;
+    margin: 50px 0;
+}
+.hero p{
+    font-size: 14px;
+    text-align: left;
 }
